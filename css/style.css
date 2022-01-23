@@ -3,10 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: steelblue;
+
+#person-Data-Container{
+    background-color: rgb(130, 158, 177);
+    border-radius: 0.5em;
+}
+span{
+    color: rgba(255, 255, 255, 0.822);
 }
 
-/* #random{
-border: 1px solid #000;
-} */
+@media only screen and (max-width: 600px) {
+.app{
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+h1{width: 80%;
+}
+}
