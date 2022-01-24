@@ -12,6 +12,12 @@ span{
     color: rgba(255, 255, 255, 0.822);
 }
 
+#spinner{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
 @media only screen and (max-width: 600px) {
 .app{
         height: 90vh;
